@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/image1">
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#D4D4D4"
+        android:alpha="0.7"
+        android:backgroundTint="#D4D4D4" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#D4D4D4"
+        android:alpha="0.7"
+        android:backgroundTint="#D4D4D4"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textColor="#00A36C"
+        android:backgroundTint="#D4D4D4"/>
+
+    <TextView
+        android:id="@+id/linkRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Not a member? Register here."
+        android:textColor="#D4D4D4"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</LinearLayout>

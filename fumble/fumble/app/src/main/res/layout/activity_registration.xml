@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/registrationName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/registrationEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/registrationPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:textColor="#00A36C"
+        android:backgroundTint="#D4D4D4"/>
+
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Already a member? Login here."
+        android:textColor="#013220"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+</LinearLayout>

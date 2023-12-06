@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717286975008",
+    "project_id": "logins-de7bb",
+    "storage_bucket": "logins-de7bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717286975008:android:44ed2baa20b2363d29be45",
+        "android_client_info": {
+          "package_name": "com.example.fumble"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzD8cn14OxQazpgFPT-1a6Bbn_B12xODQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

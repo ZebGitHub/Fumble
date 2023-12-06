@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Spinner
+            android:id="@+id/venueLocationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Select Venue Location"
+            android:layout_marginTop="16dp"/>
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:datePickerMode="spinner"
+            android:spinnersShown="true"
+            android:calendarViewShown="false"
+            android:startYear="2023"/>
+
+        <!-- Time Picker -->
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:timePickerMode="spinner"/>
+
+        <EditText
+            android:id="@+id/playersJoinedET"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Number of Players Joined"
+            android:inputType="number"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/playersNeededET"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Number of Players Needed"
+            android:inputType="number"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textColor="#00A36C"
+            android:backgroundTint="#D4D4D4"/>
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textColor="#00A36C"
+            android:backgroundTint="#D4D4D4"/>
+
+    </LinearLayout>
+</ScrollView>
