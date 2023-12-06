@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
         android:backgroundTint="#D4D4D4"
         android:text="Back"
         android:textColor="#00A36C" />
